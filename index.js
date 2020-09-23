@@ -28,5 +28,5 @@ app.use((req, res, next) => {
 // const server = http.createServer(app);
 
 app.listen(port, () => {
-  console.log(`server running at : http://${hostname}:${port}`);
+  console.log(`server running `);
 })
