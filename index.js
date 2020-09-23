@@ -7,7 +7,7 @@ const promoRouter = require('./routes/promoRouter');
 const leaderRouter = require('./routes/leaderRouter');
 
 const hostname = 'localhost';
-const port = 3000;
+const port = process.env.port || 3000;
 
 const app = express();
 app.use(morgan('dev'));
