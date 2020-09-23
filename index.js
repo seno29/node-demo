@@ -6,7 +6,7 @@ const dishRouter = require('./routes/dishRouter');
 const promoRouter = require('./routes/promoRouter');
 const leaderRouter = require('./routes/leaderRouter');
 
-const hostname = 'localhost';
+const hostname = 'nodeapp-deploy.herokuapp.com';
 const port = process.env.PORT || 3000;
 
 const app = express();
